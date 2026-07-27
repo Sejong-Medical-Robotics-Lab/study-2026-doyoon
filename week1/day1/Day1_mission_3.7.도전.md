@@ -24,12 +24,12 @@ data  logs  README.md  results
 
 /home/doyoon/robot_study/experiments/go2_walk_test/results:
 ```  
-##확인포인트   
+## 확인포인트   
 $1이 무엇으로 바뀌었는가?  
 go2_walk_test로 바뀜.
 
 
-##이름을 바꾸어 실행 후 스크립트
+## 이름을 바꾸어 실행 후 스크립트
 ```bash
 
 $ ./new_exp.sh g1_walk_test
