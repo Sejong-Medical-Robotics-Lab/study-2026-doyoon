@@ -1,4 +1,4 @@
-#Day1 · 3.7 실습 미션②
+# Day1 · 3.7 실습 미션②
 
 ```bash
 
@@ -27,7 +27,7 @@ drwxrwxr-x 4 doyoon doyoon 4096 Jul 22 06:33 ..
 -rw-rw-r-- 1 doyoon doyoon    0 Jul 22 06:43 note.txt
 ```
 
-##확인포인트
+## 확인포인트
 - backup에는 몇 개의 파일이 남아 있어야 하는가?  
 2개  
 - 와일드카드 *가 어떤 파일들을 선택했는지 설명할 수 있는가?  
