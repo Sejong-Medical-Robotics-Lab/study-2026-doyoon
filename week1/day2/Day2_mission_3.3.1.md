@@ -70,12 +70,12 @@ string data
 ```
 
 ## 확인포인트
-/chatter의 발행 주기는 몇 Hz인가?  
+- /chatter의 발행 주기는 몇 Hz인가?  
 1  
   
-ros2 topic info /chatter 로 확인한 구독자 수는 몇인가?  
+- ros2 topic info /chatter 로 확인한 구독자 수는 몇인가?  
 publisher 1명 , subscription 1명 총 2명  
   
-echo를 켠 상태에서 다시 확인하면 왜 하나 늘어나는가?  
+- echo를 켠 상태에서 다시 확인하면 왜 하나 늘어나는가?  
 echo 자신도 구독 노드이다.  
 
