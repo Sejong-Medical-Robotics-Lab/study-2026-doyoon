@@ -36,7 +36,7 @@ angular_velocity: 0.0
 ---
 ```
   
-##확인포인트 : 터미널 2에서 방향키를 누를 때마다 echo 화면에 어떤 숫자가 바뀌는지 관찰합니다.  
+## 확인포인트 : 터미널 2에서 방향키를 누를 때마다 echo 화면에 어떤 숫자가 바뀌는지 관찰합니다.  
 :cmd_vel에선 angular_z와 linear_x가 바뀌고,  
  pose에선 x,y,theta,linear_velocitiy,angular_velocity가 상황에 따라 변경이된다.  
  
