@@ -1,4 +1,4 @@
-# Day3 3.6 미션 ①
+	# Day3 3.6 미션 ①
 
 ```bash
 
@@ -106,7 +106,7 @@ $ ros2 action list
 /rm_group_controller/follow_joint_trajectory
 
 ```
-##조사질문 
+## 조사질문 
 
 - ① /joint_states에 몇 개의 관절이 보이는가? 팔 7개 외에 무엇이 더 있는가? (힌트 : 그리퍼) —
 name 배열을 J1~J7 대응(2.1절)과 맞춰 검산  
