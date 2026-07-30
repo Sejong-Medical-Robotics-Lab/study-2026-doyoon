@@ -1,0 +1,46 @@
+header:
+  stamp:
+    sec: 1785388495
+    nanosec: 536306860
+  frame_id: base_link
+name:
+- joint2
+- joint3
+- joint5
+- joint1
+- joint4
+- joint7
+- gripper_finger1_joint
+- joint6
+- gripper_finger2_joint
+position:
+- 1.658832230335008
+- 2.0430195084418634
+- 0.7808135391754564
+- 1.9888753477272112
+- 0.4708186051543802
+- -3.84945224385066
+- 0.04
+- 1.9707319486984052
+- 0.04
+velocity:
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+effort:
+- .nan
+- .nan
+- .nan
+- .nan
+- .nan
+- .nan
+- .nan
+- .nan
+- .nan
+---
