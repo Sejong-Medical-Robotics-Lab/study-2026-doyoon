@@ -11,6 +11,7 @@ ROS2(Humble) 및 로봇팔(매니퓰레이터) 실습을 다루는 2026 로봇 �
 │   ├── day1/       # ROS2 기초: 노드/토픽/서비스, talker-listener 통신, turtlesim
 │   └── day2/       # ROS2 CLI, 토픽 발행/구독, teleop, rosbag 기록
 ├── week2/          # rqt_graph 분석, CLI 드릴, 시뮬레이션(그리퍼+암), 모션 시퀀스 설계
+├── robot_ws/       # 직접 만든 ROS2 패키지 실습용 워크스페이스 (my_first_pkg)
 ├── env_report.md   # sysinfo.sh로 생성되는 개발환경 리포트
 ├── log.sh          # 학습일지 생성 + 커밋/푸시 자동화 스크립트
 └── sysinfo.sh       # 개발환경 정보를 env_report.md로 정리하는 스크립트
@@ -29,6 +30,22 @@ ROS2(Humble) 및 로봇팔(매니퓰레이터) 실습을 다루는 2026 로봇 �
 - 그리퍼 + 로봇팔 시뮬레이션 환경 구성
 - MoveJ / MoveL / MoveJ_P 등 기본 모션과 MoveIt2의 차이 학습
 - 픽앤플레이스 동작을 위한 시퀀스 테이블 설계 (`week2/sequence_table.md`)
+
+## ROS2 패키지 실습 (robot_ws/)
+
+`robot_ws/src/my_first_pkg`: 직접 작성한 첫 ROS2 파이썬 패키지(pub/sub 예제).
+
+- `greeter.py`: 1초마다 `/greeting` 토픽에 `String` 메시지를 발행하는 퍼블리셔 노드
+- `replier.py`: `/greeting` 토픽을 구독해 받은 메시지를 로그로 출력하는 서브스크라이버 노드
+- `test/`: ament copyright/flake8/pep257 코드 스타일 테스트
+
+```bash
+cd robot_ws
+colcon build --packages-select my_first_pkg
+source install/setup.bash
+ros2 run my_first_pkg greeter   # 퍼블리셔 실행
+ros2 run my_first_pkg replier   # 서브스크라이버 실행
+```
 
 ## 학습일지 (log/)
 
