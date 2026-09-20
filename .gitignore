@@ -3,3 +3,6 @@ __pycache__/
 *.mp4
 build/
 install/
+SH_ws/build/
+SH_ws/install/
+SH_ws/log/
